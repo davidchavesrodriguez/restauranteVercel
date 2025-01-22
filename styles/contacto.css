@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Faculty+Glyphic&display=swap");
+
+:root {
+  --main-color: #235bb5;
+  --accent-color: #d9a626;
+  --text-color: #f0f0f0;
+  --bg-color: #0e0e0e;
+  --card-bg-color: #1b1b1b;
+}
+
+/* Fondo y estilos principales */
+body {
+  background: linear-gradient(to bottom right, #01112b, #03317a);
+  color: var(--text-color);
+}
+
+p {
+  font-family: "Crimson Text", serif;
+  font-weight: bold;
+  font-size: large;
+}
+
+.contact-container {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: var(--accent-color);
+  margin: 15px 0;
+}
+
+h1::after,
+h2:after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 5px;
+  background-color: var(--accent-color);
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+/* Redes sociales */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Un poco más de espacio entre iconos */
+  margin-bottom: 25px;
+  padding: 10px; /* Añadir un poco de relleno */
+}
+
+.social-links a {
+  color: var(--text-color);
+  padding: 12px 18px; /* Ajuste de espacio */
+  border-radius: 20%; /* Hacer los botones redondos */
+  font-size: 18px; /* Tamaño de fuente personalizado */
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  transition: all 0.3s ease-in-out; /* Efecto de transición suave */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.whatsapp {
+  border: 3px solid #25d366;
+}
+
+.whatsapp:hover {
+  background-color: #25d366;
+}
+
+.facebook {
+  border: 3px solid white;
+}
+
+.facebook:hover {
+  background-color: white;
+  color: #235bb5;
+}
+
+.instagram {
+  border: 3px solid #e1306c;
+}
+
+.instagram:hover {
+  background-color: #e1306c;
+}
+
+.social-links a:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulario de reserva */
+.reservation {
+  background-color: var(--card-bg-color);
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid var(--accent-color);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  margin-bottom: 25px;
+}
+
+.reservation form {
+  display: grid;
+  gap: 12px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.reservation label {
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.reservation input,
+.reservation button {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid var(--main-color);
+  background-color: #333;
+  color: var(--text-color);
+}
+
+.reservation button {
+  background-color: var(--accent-color);
+  color: var(--bg-color);
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.reservation button:hover {
+  background-color: #b7871d;
+  color: #0e0e0e;
+}
+
+/* Google Maps */
+.map {
+  margin-top: 20px;
+}
+
+.map iframe {
+  width: 90%;
+  height: 25vw;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  border: 2px solid var(--accent-color);
+}

@@ -1,0 +1,90 @@
+{
+  "menu": {
+    "appetizers": [
+      {
+        "name": "Haggis Bites",
+        "description": "Pequeñas porciones de haggis empanizadas y fritas, servidas con una salsa de mostaza y miel.",
+        "price": 8.0,
+        "image": "./images/menu/haggis_bites.jpg",
+        "allergens": ["Gluten", "Mostaza", "Lácteos"],
+        "video_url": "https://www.youtube.com/embed/zcRC5Wgsgng"
+      },
+      {
+        "name": "Cullen Skink Soup",
+        "description": "Sopa cremosa de pescado ahumado, patatas y cebollas, servida con pan fresco.",
+        "price": 7.5,
+        "image": "./images/menu/cullen_skink.jpg",
+        "allergens": ["Pescado", "Lácteos", "Gluten"],
+        "video_url": "https://www.youtube.com/embed/VYQZyf_i4sk"
+      },
+      {
+        "name": "Scotch Eggs",
+        "description": "Huevos duros envueltos en carne de salchicha, empanizados y fritos, acompañados de salsa de mostaza.",
+        "price": 6.5,
+        "image": "./images/menu/scotch_eggs.jpg",
+        "allergens": ["Huevo", "Gluten", "Mostaza"],
+        "video_url": "https://www.youtube.com/embed/Hs1ccQFnNZI"
+      }
+    ],
+    "main": [
+      {
+        "name": "Haggis, Neeps and Tatties",
+        "description": "El clásico escocés, haggis servido con puré de nabo (neeps) y puré de patatas (tatties), acompañado de una salsa de whisky.",
+        "price": 15.0,
+        "image": "./images/menu/haggis_neeps_tatties.jpg",
+        "allergens": ["Gluten", "Lácteos", "Alcohol"],
+        "video_url": "https://www.youtube.com/embed/NDyTFllY9iI"
+      },
+      {
+        "name": "Haggis Pie",
+        "description": "Haggis cocinado a fuego lento, cubierto con una masa hojaldrada, servido con guarnición de verduras.",
+        "price": 16.0,
+        "image": "./images/menu/haggis_pie.jpg",
+        "allergens": ["Gluten", "Lácteos"],
+        "video_url": "https://www.youtube.com/embed/tFd964baZqM"
+      },
+      {
+        "name": "Haggis Burger",
+        "description": "Una jugosa hamburguesa de haggis servida en un pan de hamburguesa con lechuga, tomate y mayonesa de whisky.",
+        "price": 14.0,
+        "image": "./images/menu/haggis_burger.jpg",
+        "allergens": ["Gluten", "Lácteos", "Mostaza"],
+        "video_url": "https://www.youtube.com/embed/lBTlE0BPyQ8"
+      },
+      {
+        "name": "Haggis Stir-Fry",
+        "description": "Haggis salteado con verduras frescas y salsa de soja, servido sobre arroz.",
+        "price": 14.5,
+        "image": "./images/menu/haggis_stir_fry.jpg",
+        "allergens": ["Soya"],
+        "video_url": "https://www.youtube.com/embed/W3uKcSNHNw4"
+      },
+      {
+        "name": "Vegetarian Haggis",
+        "description": "Versión vegetariana del haggis, hecho con lentejas, avena y especias, servido con puré de nabo y patatas.",
+        "price": 13.0,
+        "image": "./images/menu/vegetarian_haggis.jpg",
+        "allergens": ["Gluten", "Lentejas"],
+        "video_url": "https://www.youtube.com/embed/Fp26NjyG9-Q"
+      }
+    ],
+    "desserts": [
+      {
+        "name": "Sticky Toffee Pudding",
+        "description": "Bizcocho de dátiles bañado en una rica salsa de caramelo, servido con helado de vainilla.",
+        "price": 6.0,
+        "image": "./images/menu/sticky_toffee.jpg",
+        "allergens": ["Gluten", "Lácteos", "Huevos"],
+        "video_url": "https://www.youtube.com/embed/EmwA0CfoKeI"
+      },
+      {
+        "name": "Shortbread",
+        "description": "Galletas escocesas tradicionales, perfectas para acompañar el té o el café.",
+        "price": 4.0,
+        "image": "./images/menu/shortbread.jpg",
+        "allergens": ["Gluten", "Lácteos"],
+        "video_url": "https://www.youtube.com/embed/QEoqWx-Lq1A"
+      }
+    ]
+  }
+}

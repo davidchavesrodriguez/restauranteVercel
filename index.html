@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Celtic Heritage</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <img
+        src="./images/logos/goldenLogo.png"
+        alt="Celtic Heritage Logo"
+        id="logo"
+      />
+      <nav id="headerNav">
+        <p id="linkCarta">Carta</p>
+        <p id="linkConocenos">Conócenos</p>
+        <p id="linkContacto">Contacto</p>
+      </nav>
+    </header>
+
+    <!-- MAIN PRINCIPAL -->
+    <main>
+      <iframe src="principal.html" title="principal" id="contentFrame"></iframe>
+    </main>
+
+    <footer>
+      <p id="copyright">
+        &copy; 2024 David Chaves Rodríguez. Algunos derechos reservados.
+      </p>
+      <hr />
+      <div>
+        <p><a href="#" id="linkLegal">Aviso Legal</a></p>
+        <p>
+          <a href="#" id="linkPolitica">Política de privacidad y cookies</a>
+        </p>
+        <p><a href="#" id="linkArea">Área Interna</a></p>
+      </div>
+    </footer>
+
+    <!-- Asegúrate de importar el script de SweetAlert antes de tu propio script -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="scripts/index.js" defer></script>
+  </body>
+</html>

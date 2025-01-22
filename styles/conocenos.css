@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Faculty+Glyphic&display=swap");
+
+:root {
+  --main-color: #235bb5;
+  --accent-color: #d9a626;
+  --text-color: #333;
+}
+
+body {
+  background: linear-gradient(to bottom right, #01112b, #03317a);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  font-family: "Crimson Text", serif;
+  font-weight: bold;
+  font-size: large;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.content {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.section {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  border-radius: 15px;
+  margin-bottom: 2%;
+}
+
+.section:nth-of-type(even) {
+  margin-right: -5%;
+  background-color: var(--main-color);
+  color: white;
+  border: 3px solid var(--accent-color);
+}
+
+.section:nth-of-type(even) p {
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.section:nth-of-type(odd) {
+  margin-left: -5%;
+  background-color: white;
+  color: var(--main-color);
+  border: 3px solid var(--accent-color);
+}
+
+.section:nth-of-type(odd) p {
+  border-left: 2px solid var(--main-color);
+  border-right: 2px solid var(--main-color);
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+  margin: 10px 0;
+  flex: 1;
+  grid-column: 2/4;
+  padding: 5%;
+}
+
+.image {
+  margin: 20px;
+}
+
+.image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

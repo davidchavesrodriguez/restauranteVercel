@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Faculty+Glyphic&display=swap");
+
+:root {
+  --main-color: #235bb5;
+  --accent-color: #d9a626;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  background: linear-gradient(to bottom right, #01112b, #03317a);
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--accent-color);
+  text-align: center;
+  margin: 20px 0;
+  position: relative;
+}
+
+h1::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 5px;
+  background-color: var(--accent-color);
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.menu-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product {
+  text-align: center;
+  width: 95%;
+  border: 3px solid var(--accent-color);
+  background-color: var(--main-color);
+  color: white;
+  margin: 1%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.product:hover {
+  background-color: white;
+  color: var(--main-color);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.product:hover .price {
+  background-color: var(--main-color);
+  color: white;
+}
+
+.product p,
+.allergens {
+  margin: 2% 10%;
+  padding: 2%;
+  border-left: 5px solid var(--accent-color);
+  border-right: 5px solid var(--accent-color);
+  font-family: "Crimson Text", serif;
+  font-weight: bold;
+  font-size: large;
+}
+
+.product:hover p,
+.allergens {
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  font-family: "Crimson Text", serif;
+  font-weight: bold;
+  font-size: large;
+}
+
+.price {
+  background-color: white;
+  color: var(--main-color);
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: inline-block;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.price:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#print-btn {
+  background-color: transparent;
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 20px auto;
+  display: block;
+  text-align: center;
+}
+
+#print-btn:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
